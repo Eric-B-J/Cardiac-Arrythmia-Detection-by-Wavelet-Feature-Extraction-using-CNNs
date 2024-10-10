@@ -16,4 +16,4 @@ The extracted features are used as input to a Convolutional Neural Network (CNN)
 
 Data Flow:
 
-Raw ECG signals → Preprocessing (filtering, noise reduction) → Wavelet Feature Extraction → CNN Model → Arrhythmia Classification
+Raw ECG signals  → Wavelet Feature Extraction → CNN Model → Arrhythmia Classification
