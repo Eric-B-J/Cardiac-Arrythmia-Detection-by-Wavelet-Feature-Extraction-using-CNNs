@@ -7,9 +7,11 @@ This project presents a deep learning-based approach to detect cardiac arrhythmi
 How It Works
 
 Wavelet Transform for Feature Extraction:
+
 ECG signals are complex and may exhibit frequency-domain characteristics that vary with arrhythmias. We use Continous wavelet transform to extract these frequency and time-based features using morlet wavelet. 
 
 CNN for Classification:
+
 The extracted features are used as input to a Convolutional Neural Network (CNN), which learns to distinguish between 3 classes, namely, Arrythmia, Normal Sinus rhythm and Congestive Heart failure. We have used Transfer Learning by using pre-trained model called AlexNet for classification
 
 Data Flow:
